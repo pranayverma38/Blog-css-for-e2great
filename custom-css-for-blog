@@ -1,0 +1,301 @@
+#bloggle_article-layout {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; }
+  #bloggle_article-layout #bloggle_article {
+    width: calc(100% - 210px); }
+    @media screen and (max-width: 768px) {
+      #bloggle_article-layout #bloggle_article {
+        width: 100%; } }
+    #bloggle_article-layout #bloggle_article .bloggle_rte {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  #bloggle_article-layout .bloggle--goback-top {
+    margin-bottom: 30px; }
+  #bloggle_article-layout .bloggle--goback-bottom {
+    margin-top: 30px; }
+
+.bggle-latest-article {
+  display: block;
+  margin-bottom: 10px; }
+  .bggle-latest-article li {
+    padding-bottom: 10px; }
+  .bggle-latest-article img {
+    display: block;
+    width: 55px;
+    -o-object-fit: cover;
+    object-fit: cover; }
+
+.sideBar__left {
+  display: flex;
+  flex-direction: row-reverse; }
+  .sideBar__left #bloggle_sideBar {
+    margin-left: 0;
+    margin-right: 40px; }
+
+.sideBar__right {
+  display: flex; }
+
+.text__left {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.text__center {
+  
+  display: flex;
+  flex-direction: column;
+  
+
+.text__right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+.flex-column-reverse {
+  display: flex;
+  flex-direction: column-reverse; }
+
+#article-header {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  #article-header p {
+    margin: 0; }
+  #article-header h1 {
+    margin: 0px 0px 10px 0px; }
+  #article-header #bloggle--blog-item-tags {
+    padding: 5px 10px;
+    background: #f1f1f1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 10px;
+    text-decoration: none;
+    color: inherit; }
+  #article-header .info_header {
+    display: flex; }
+  #article-header #separator, #article-header .separator {
+    margin: 0 10px; }
+
+#bloggle--blog-item-goback a {
+  color: #7e8286;
+  text-decoration: none; }
+
+.share-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; }
+  .share-buttons div {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; }
+    .share-buttons div svg {
+      height: 1em;
+      width: 1em;
+      margin-right: 5px; }
+    .share-buttons div a {
+      text-decoration: none;
+      color: black;
+      font-size: 0.8em; }
+
+#bloggle_sideBar {
+  width: 210px;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 30px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 0; }
+  @media screen and (max-width: 768px) {
+    #bloggle_sideBar {
+      width: 100%; } }
+  #bloggle_sideBar .bggle--sideBar--title {
+    padding: 8px 0;
+    margin-bottom: 15px !important;
+    border-bottom: 1px solid #e7e7e7; }
+  #bloggle_sideBar .bggle--product-vendor {
+    font-weight: bold; }
+  #bloggle_sideBar .bggle--product-item-img {
+    width: 100%;
+    height: 150px; }
+  #bloggle_sideBar .bggle--info-siderBar-product {
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center; }
+    @media screen and (max-width: 768px) {
+      #bloggle_sideBar .bggle--info-siderBar-product {
+        margin-top: 0px; } }
+    #bloggle_sideBar .bggle--info-siderBar-product img {
+      width: 33%;
+      height: 100px;
+      -o-object-fit: cover;
+      object-fit: cover; }
+    #bloggle_sideBar .bggle--info-siderBar-product .bggle--product-info {
+      margin-left: 10px; }
+      #bloggle_sideBar .bggle--info-siderBar-product .bggle--product-info .bggle--product-solde {
+        display: flex;
+        align-items: baseline; }
+      #bloggle_sideBar .bggle--info-siderBar-product .bggle--product-info .bggle--product-price {
+        color: #646464;
+        font-size: 0.8em; }
+      #bloggle_sideBar .bggle--info-siderBar-product .bggle--product-info .bggle--product-compare-price {
+        margin-left: 10px;
+        color: #969696;
+        font-size: 0.8em;
+        text-decoration: line-through; }
+  #bloggle_sideBar .bloggle--blog-item-button {
+    margin-top: 20px; }
+  #bloggle_sideBar p {
+    margin: 0; }
+  #bloggle_sideBar a {
+    text-decoration: none;
+    color: inherit; }
+  #bloggle_sideBar #price {
+    font-size: 1.2em; }
+  #bloggle_sideBar #last-articles {
+    padding-top: 20px; }
+    #bloggle_sideBar #last-articles img {
+      margin-left: 0; }
+    #bloggle_sideBar #last-articles ul {
+      list-style: none;
+      padding: 0;
+      margin-left: 0px;
+      margin-right: 0px; }
+      #bloggle_sideBar #last-articles ul li {
+        padding: 5px 0; }
+
+.tags {
+  display: flex; }
+
+#bloggle_comment-layout {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e7e7e7; }
+  #bloggle_comment-layout .bggle--field {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; }
+  #bloggle_comment-layout #comment_form {
+    width: 50%; }
+  #bloggle_comment-layout .bggle--success-message {
+    background: #CBEBC8;
+    padding: 5px 10px; }
+  #bloggle_comment-layout .bggle--form-error {
+    background: #FFB6B6;
+    padding: 5px 10px; }
+  #bloggle_comment-layout .bggle--input {
+    padding: 10px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 14px; }
+    #bloggle_comment-layout .bggle--input:focus {
+      border: 1px solid #b4b4b4; }
+    #bloggle_comment-layout .bggle--input:focus-visible {
+      box-shadow: none; }
+  #bloggle_comment-layout .bggle--icon {
+    width: 10px;
+    height: 10px;
+    fill: black;
+    color: black; }
+  #bloggle_comment-layout .bloggle_rte {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #bloggle_comment-layout .bggle--pagination-container {
+    text-align: center; }
+  #bloggle_comment-layout .bggle--pagination-item-arrow {
+    text-decoration: none; }
+  #bloggle_comment-layout .bggle--pagination-item {
+    color: black;
+    font-size: 15px;
+    padding: 0px 3px; }
+  #bloggle_comment-layout .bggle--input::-moz-placeholder {
+    color: #bdbdbd; }
+  #bloggle_comment-layout .bggle--input:-ms-input-placeholder {
+    color: #bdbdbd; }
+  #bloggle_comment-layout .bggle--input::placeholder {
+    color: #bdbdbd; }
+
+@media screen and (max-width: 1140px) {
+  #bloggle_article-layout {
+    padding: 0 20px; } }
+
+@media screen and (max-width: 1100px) {
+  #bloggle_article-layout {
+    min-width: auto;
+    width: 100% !important; } }
+
+@media screen and (max-width: 768px) {
+  #bloggle_article-layout {
+    width: 100%; }
+  #bloggle_sideBar #last-articles, #bloggle_sideBar #product-sideBar {
+    display: none; }
+  #bloggle_article-layout .sideBar__showOnMobile {
+    display: block; }
+  .bggle--sideBar--title {
+    display: none; }
+  #bloggle_sideBar {
+    display: none;
+    position: fixed;
+    top: auto !important;
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    max-width: 100%;
+    background: white;
+    z-index: 10;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); }
+    #bloggle_sideBar .info_siderBar-product {
+      margin-top: 0;
+      border: none; }
+    #bloggle_sideBar .bloggle--blog-item-button-sidebar {
+      display: block; }
+    #bloggle_sideBar #bggle--product-related {
+      height: 100%; }
+    #bloggle_sideBar a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      height: 100%; }
+      #bloggle_sideBar a .bggle--product-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px; }
+      #bloggle_sideBar a .info_sideBar {
+        display: flex;
+        align-items: center; }
+      #bloggle_sideBar a .bggle--product-item-img {
+        height: 80px;
+        width: 80px; }
+    #bloggle_sideBar .bggle--currency-left {
+      width: 100%;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end; }
+    #bloggle_sideBar .bggle--currency-right {
+      display: flex;
+      flex-direction: row; }
+  #bloggle_comment-layout #comment_form {
+    width: 100%; }
+  .info_header {
+    flex-direction: column; }
+    .info_header #separator, .info_header .separator {
+      display: none; } }
